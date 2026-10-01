@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Sign Up</h2>
+<p>Please fill in this form to create an account.</p>
+<hr>
+
+<form action="/action_page.php">
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter Email"><br>
+  <label for="pw">Password:</label><br>
+  <input type="password" id="pw" name="Password"  placeholder="Enter Password"><br>
+  <label for="repeat">Repeat Password:</label><br>
+  <input type="password" id="rpw" name="Repeat Password"  placeholder="Repeat Password"><br>
+  <label for="gender">Gender:</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+  <input type="checkbox" id="rm" name="remember" value="remember"> 
+  <label for="rm">Remember Me:</label><br>
+
+  <p> By submitting this form, you agree to the <a href="/terms">Terms & Privacy</a>.</p>
+
+   
+  
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
+
