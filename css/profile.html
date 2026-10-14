@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hero {
+            height: 100vh;
+            background-color: #222;
+            /* fallback if image fails */
+            background-image: url("bgphoto.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            color: red;
+            
+            position: relative;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 20px;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 20px;
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 20px;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 20px;
+        }
+
+        .centre {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .top_centre {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .bottom_centre {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .right_centre {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+        }
+
+        .left_centre {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+    
+    </style>
+</head>
+
+<body>
+<div class="hero">
+    <div class="top-left">Aanya</div>
+    <div class="top-right">Aanya</div>
+    <div class="bottom-left">Aanya</div>
+    <div class="bottom-right">Aanya</div>
+    <div class="centre">Aanya</div>
+    <div class="top_centre">Aanya</div>
+    <div class="bottom_centre">Aanya</div>
+    <div class="right_centre">Aanya</div>
+    <div class="left_centre">Aanya</div>
+
+</body>
+
+</html>
