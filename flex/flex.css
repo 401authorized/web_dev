@@ -5,6 +5,7 @@
     flex-wrap: wrap ;
     height: 1700px ;
     width: 400px;
+    justify-content: space-evenly;
     
 
 }
