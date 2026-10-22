@@ -1,0 +1,50 @@
+a:link{
+    color: olive;
+}
+
+a:hover{
+    background-color: olivedrab;
+    font-size: large;
+}
+
+a:active{
+    color: rgb(71, 71, 49);
+}
+
+a:visited{
+     color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: yellowgreen;
+    padding: 9px;
+}
+li:not(:hover){
+    background-color: rgb(255, 214, 102);
+    padding: 10px;
+}
+
+#fruit li::marker{
+    content: "🐝";
+}
+
+#orange::after{
+      content: "🍊";
+}
+
+#apple::after{
+      content: "🍎";
+}
+
+#grapes::after{
+      content: "🍇";
+}
+
+p::selection{
+    background-color: black;
+    color: olive;
+}

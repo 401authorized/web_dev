@@ -1,0 +1,53 @@
+.hero{
+    height: 100vh;
+    background-image: url(../images/favicon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    }
+
+.top2{
+    position: absolute;
+    left: 50%;
+    top: 0%;
+}
+.top3{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+.middle1{
+    position: absolute;
+    bottom: 50%;
+}
+
+.middle2{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+}
+
+.middle3{
+    position: absolute;
+    bottom: 50%;
+    right: 0%;
+}
+
+.bottom1{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+.bottom2{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+}
+
+.bottom3{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}

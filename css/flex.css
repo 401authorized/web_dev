@@ -1,0 +1,29 @@
+.container{
+    border: 3px solid;
+    height: 90vh;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: end;
+}
+.box{
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 4em;
+    text-align: center;
+}
+
+#box1{
+    background-color: brown;
+}
+#box2{
+    background-color: rgb(173, 91, 59);
+}
+#box3{
+    background-color: rgba(169, 102, 44, 0.936);
+}
+#box4{
+    background-color: rgba(182, 154, 103, 0.936);
+}

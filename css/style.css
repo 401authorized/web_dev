@@ -1,0 +1,64 @@
+body{
+            background-color: blanchedalmond;
+            font-family: Rubik Storm;
+;
+        }
+h1{
+            color: darkblue;
+            font-family: Isometra ;
+            border-style: dotted;
+            border-color: brown;
+            border-radius: 10px;
+            padding: 5% ;
+            text-align: center;
+            text-shadow: 3px 4px 6px brown;
+        }
+p{
+            color:blueviolet;
+        }
+#imp{
+    background-color: black;
+    color:brown;
+}
+.box{
+   
+    border-color: aquamarine;
+    border: 5px solid;
+    box-sizing: border-box;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(202, 146, 73);
+    box-shadow: 8px 8px 6px brown;
+}
+
+#box1{
+     background-color: aqua;
+     width: 100px;
+     height: 100px;
+     margin-left: auto;
+}
+
+#box2{
+    background-color: rgb(203, 183, 84);
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+#img1{
+       float: right;
+       margin: 10px;
+       
+}
+
+
+#img2{
+       float: left;
+       margin: 10px;
+}
+
+div{
+    border: 3px solid;
+    height: 75px;
+    overflow: auto;
+}
