@@ -1,0 +1,14 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transition:transform 2s, background-color 4s, border-radius 4s, translate 4s, height 4s, width 4s;
+}
+div:hover{
+    width: 400px;
+    height: 400px;
+    transform: rotate(180deg);
+    background-color:beige;
+    border-radius: 50%;
+    translate: 400px 400px;
+}

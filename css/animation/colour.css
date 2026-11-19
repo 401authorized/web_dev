@@ -1,0 +1,38 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    animation-name: myanimation;
+    animation-duration: 4s;
+
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border-radius: 50%;
+    animation-name: circle;
+    animation-duration: 4s;
+}
+
+@keyframes myanimation {
+    from {
+        background-color:#72c6ef;
+    }
+
+    to {
+        background-color: #004e8f;
+    }
+}
+
+@keyframes circle {
+    from {
+        background-color:#003d4d;
+    }
+
+    to {
+        background-color: #00c996;
+    }
+}
+
